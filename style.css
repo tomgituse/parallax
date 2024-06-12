@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+body {
+  font-family: "Jura", sans-serif;
+  background: #fff;
+}
+
+.frame {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 999;
+  width: calc(100% - 30px);
+  height: calc(100% - 30px);
+  border: 4px solid #070707;
+  box-sizing: border-box;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  height: 10000px;
+  opacity: 0;
+}
+.section .scene {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+.section .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #070707;
+  font-weight: bold;
+  font-size: 20px;
+}
+.section .background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.section .item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.section .graphic {
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  background: #000000;
+  border-radius: 100%;
+}
+
+.first-content {
+  opacity: 1;
+}
+.first-content .graphic.-graphic1 {
+  top: 20%;
+  right: 40%;
+}
+.first-content .graphic.-graphic2 {
+  bottom: 30%;
+  left: 25%;
+}
+.first-content .graphic.-graphic3 {
+  bottom: 30%;
+  right: 30%;
+}
+
+.name {
+  text-align: center;
+}
+
+.second-content .graphic.-graphic1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2767b2;
+  top: 10%;
+  left: 20%;
+}
+.second-content .graphic.-graphic2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5522e;
+  bottom: 15%;
+  left: 20%;
+}
+.second-content .graphic.-graphic3 {
+  top: 25%;
+  right: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #08d9ff;
+}
+.second-content .graphic.-graphic4 {
+  top: 40%;
+  right: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7e025;
+}
+.second-content .graphic.-graphic5 {
+  bottom: 20%;
+  left: 65%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7b7fb5;
+}
+.second-content .graphic.-graphic6 {
+  bottom: 40%;
+  left: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cf6c9c;
+}
+.second-content .graphic.-graphic7 {
+  top: 40%;
+  left: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff2412;
+}
+.second-content .graphic.-graphic8 {
+  bottom: 40%;
+  right: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #84bf08;
+}
+
+.third-content .graphic.-graphic1 {
+  top: 15%;
+  left: 30%;
+}
+.third-content .graphic.-graphic2 {
+  bottom: 30%;
+  left: 20%;
+}
+.third-content .graphic.-graphic3 {
+  top: 30%;
+  right: 25%;
+}
+
+.fourth-content .graphic.-graphic1 {
+  top: 20%;
+  right: 30%;
+}
+.fourth-content .graphic.-graphic2 {
+  bottom: 25%;
+  left: 25%;
+}
+.fourth-content .graphic.-graphic3 {
+  bottom: 30%;
+  right: 25%;
+}
+
+.icon_box {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(50px);
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.icon_box-logo {
+  display: block;
+  width: 20px;
+}/*# sourceMappingURL=style.css.map */

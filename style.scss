@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap");
+
+body {
+  font-family: "Jura", sans-serif;
+  background: #fff;
+}
+
+.frame {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 999;
+  width: calc(100% - 30px);
+  height: calc(100% - 30px);
+  border: 4px solid #070707;
+  box-sizing: border-box;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  height: 10000px;
+  opacity: 0;
+
+  .scene {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+  }
+
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #070707;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .graphic {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    background: #000000;
+    border-radius: 100%;
+  }
+}
+
+.first-content {
+  opacity: 1;
+  // .background {
+  //   background: url(./img/universe.jpg) center center no-repeat;
+  //   background-size: cover;
+  // }
+
+  .graphic {
+    &.-graphic1 {
+      top: 20%;
+      right: 40%;
+    }
+
+    &.-graphic2 {
+      bottom: 30%;
+      left: 25%;
+    }
+
+    &.-graphic3 {
+      bottom: 30%;
+      right: 30%;
+    }
+  }
+}
+.name {
+  text-align: center;
+}
+.second-content {
+  // .background {
+  //   background: url(./img/ink.jpg) center center no-repeat;
+  //   background-size: cover;
+  // }
+
+  .graphic {
+    &.-graphic1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #2767b2;
+      top: 10%;
+      left: 20%;
+    }
+
+    &.-graphic2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #e5522e;
+      bottom: 15%;
+      left: 20%;
+    }
+
+    &.-graphic3 {
+      top: 25%;
+      right: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #08d9ff;
+    }
+
+    &.-graphic4 {
+      top: 40%;
+      right: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f7e025;
+    }
+
+    &.-graphic5 {
+      bottom: 20%;
+      left: 65%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #7b7fb5;
+    }
+
+    &.-graphic6 {
+      bottom: 40%;
+      left: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #cf6c9c;
+    }
+
+    &.-graphic7 {
+      top: 40%;
+      left: 25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ff2412;
+    }
+
+    &.-graphic8 {
+      bottom: 40%;
+      right: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #84bf08;
+    }
+  }
+}
+
+.third-content {
+  // .background {
+  //   background: url(./img/universe.jpg) center center no-repeat;
+  //   background-size: cover;
+  // }
+
+  .graphic {
+    &.-graphic1 {
+      top: 15%;
+      left: 30%;
+    }
+
+    &.-graphic2 {
+      bottom: 30%;
+      left: 20%;
+    }
+
+    &.-graphic3 {
+      top: 30%;
+      right: 25%;
+    }
+  }
+}
+
+.fourth-content {
+  // .background {
+  //   background: url(https://picsum.photos/seed/photo15/3000) center center
+  //     no-repeat;
+  //   background-size: cover;
+  // }
+
+  .graphic {
+    &.-graphic1 {
+      top: 20%;
+      right: 30%;
+    }
+
+    &.-graphic2 {
+      bottom: 25%;
+      left: 25%;
+    }
+
+    &.-graphic3 {
+      bottom: 30%;
+      right: 25%;
+    }
+  }
+}
+
+.icon_box {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(50px);
+  column-gap: 10px;
+  &-logo {
+    display: block;
+    width: 20px;
+  }
+}
