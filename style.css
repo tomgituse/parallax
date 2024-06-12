@@ -175,9 +175,9 @@ body {
   align-items: center;
   transform: translateY(50px);
   -moz-column-gap: 10px;
-       column-gap: 10px;
+  column-gap: 10px;
 }
 .icon_box-logo {
   display: block;
   width: 20px;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
